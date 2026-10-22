@@ -1,0 +1,38 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "freelance-invoice",
+  "title": "Freelance Invoice",
+  "description": "Generate a clean, printable HTML invoice from a quick form. No account, nothing leaves your machine.",
+  "icon": "icon.png",
+  "author": "kleogeos",
+  "categories": [
+    "Productivity",
+    "Finance"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "create-invoice",
+      "title": "Create Invoice",
+      "description": "Fill in client, items and notes, then open a ready-to-send HTML invoice",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^2.8.2",
+    "@raycast/utils": "^2.1.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.0.4",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.4.0"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+}
